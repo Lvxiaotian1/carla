@@ -1,9 +1,0 @@
-libdir=/home/lvxiaotian/Carla_0.9.13/Build/gtest-1.8.1-c8-libcxx-install/lib
-includedir=/home/lvxiaotian/Carla_0.9.13/Build/gtest-1.8.1-c8-libcxx-install/include
-
-Name: gmock
-Description: GoogleMock (without main() function)
-Version: 1.9.0
-URL: http://github.fishros.org/https://github.com/google/googletest
-Libs: -L${libdir} -lgmock -pthread
-Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 -pthread
