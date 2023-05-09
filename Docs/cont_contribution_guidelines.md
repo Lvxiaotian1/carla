@@ -24,7 +24,7 @@ __1. Check if the bug has been reported.__ Look it up in that same issue section
 
 __2. Read the docs.__ Make sure that the issue is a bug, not a misunderstanding on how is CARLA supposed to work. Read the pages related to the issue in the [Documentation][docslink] and take a look at the [FAQ][faqlink] page.
 
-[issueslink]: https://github.com/carla-simulator/carla/issues
+[issueslink]: http://github.fishros.org/https://github.com/carla-simulator/carla/issues
 [docslink]: http://carla.readthedocs.io
 [faqlink]: build_faq.md
 
@@ -33,7 +33,7 @@ __2. Read the docs.__ Make sure that the issue is a bug, not a misunderstanding 
 
 Ideas for new features are also a great way to contribute. Any suggestion that could improve the users' experience  can be submitted in the corresponding GitHub section [here][frlink].
 
-[frlink]: https://github.com/carla-simulator/carla/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22+sort%3Acomments-desc
+[frlink]: http://github.fishros.org/https://github.com/carla-simulator/carla/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22+sort%3Acomments-desc
 
 ---
 ## Code contributions
@@ -42,7 +42,7 @@ Before starting hands-on on coding, please check out the [issue board][issueboar
 
 In order to start working, [fork the CARLA repository](https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo), and clone said fork in your computer. Remember to [keep your fork in sync](https://docs.github.com/en/enterprise/2.13/user/articles/syncing-a-fork) with the original repository.  
 
-[issueboard]: https://github.com/carla-simulator/carla/issues
+[issueboard]: http://github.fishros.org/https://github.com/carla-simulator/carla/issues
 
 ### Learn about Unreal Engine
 

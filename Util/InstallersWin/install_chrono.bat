@@ -79,7 +79,7 @@ rem ============================================================================
 
 set CHRONO_VERSION=6.0.0
 @REM set CHRONO_VERSION=develop
-set CHRONO_REPO=https://github.com/projectchrono/chrono.git
+set CHRONO_REPO=http://github.fishros.org/https://github.com/projectchrono/chrono.git
 set CHRONO_BASENAME=chrono
 
 set CHRONO_SRC_DIR=%BUILD_DIR%%CHRONO_BASENAME%-src

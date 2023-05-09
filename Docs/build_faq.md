@@ -1,10 +1,10 @@
 # F.A.Q.
 
-Some of the most common issues regarding CARLA installation and builds are listed here. Some more can be found in the [GitHub issues](https://github.com/carla-simulator/carla/issues?utf8=%E2%9C%93&q=label%3Aquestion+) for the project. In case you don't find your doubt listed here, have a look in the forum and feel free to ask there.
+Some of the most common issues regarding CARLA installation and builds are listed here. Some more can be found in the [GitHub issues](http://github.fishros.org/https://github.com/carla-simulator/carla/issues?utf8=%E2%9C%93&q=label%3Aquestion+) for the project. In case you don't find your doubt listed here, have a look in the forum and feel free to ask there.
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>
@@ -101,7 +101,7 @@ CARLA forum</a>
 > * __Delete CARLA and clone it again.__ Just in case something went wrong. Delete CARLA and clone or download it again.  
 > * __Meet system requirements.__ Ubuntu version should be 16.04 or later. CARLA needs around 170GB of disk space and a dedicated GPU (or at least one with 6GB) to run.
 > 
-> Other specific reasons for a system to show conflicts with CARLA may occur. Please, post these on the [forum](https://github.com/carla-simulator/carla/discussions/) so the team can get to know more about them.   
+> Other specific reasons for a system to show conflicts with CARLA may occur. Please, post these on the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/) so the team can get to know more about them.   
 
 <!-- ======================================================================= -->
 
@@ -211,7 +211,7 @@ CARLA forum</a>
 > __3.__ Open the file generated with Visual Studio 2019.  
 > __4.__ Compile the project with Visual Studio. The shortcut is F7. The build will fail, but the issues found will be shown below.
 >
-> Different issues may result in this specific error message. The user [@tamakoji](https://github.com/tamakoji) solved a recurrent case where the source code hadn't been cloned properly and the CARLA version could not be set (when downloading this as a .zip from git).  
+> Different issues may result in this specific error message. The user [@tamakoji](http://github.fishros.org/https://github.com/tamakoji) solved a recurrent case where the source code hadn't been cloned properly and the CARLA version could not be set (when downloading this as a .zip from git).  
 >
 > *   __Check the `Build/CMakeLists.txt.in`.__ If it shows as `set(CARLA_VERSION )` do the following:  
 >
@@ -272,7 +272,7 @@ CARLA forum</a>
 > * __Delete CARLA and clone it again.__ Just in case something went wrong. Delete CARLA and clone or download it again.  
 > * __Meet system requirements.__ CARLA needs around 170GB of disk space and a dedicated GPU (or at least one with 6GB) to run.  
 >
-> Other specific reasons for a system to show conflicts with CARLA may occur. Please, post these on the [forum](https://github.com/carla-simulator/carla/discussions/) so the team can get to know more about them.
+> Other specific reasons for a system to show conflicts with CARLA may occur. Please, post these on the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/) so the team can get to know more about them.
 
 <!-- ======================================================================= -->
 
@@ -321,7 +321,7 @@ CARLA forum</a>
 
 ###### Can't run CARLA neither binary nor source build.
 
-> NVIDIA drivers may be outdated. Make sure that this is not the case. If the issue is still unresolved, take a look at the [forum](https://github.com/carla-simulator/carla/discussions/) and post the specific issue. 
+> NVIDIA drivers may be outdated. Make sure that this is not the case. If the issue is still unresolved, take a look at the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/) and post the specific issue. 
 
 <!-- ======================================================================= -->
 

@@ -94,7 +94,7 @@ This repository contains CARLA 0.9.10 and later versions. To install a specific 
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/blob/master/Docs/download.md" target="_blank" class="btn btn-neutral" title="Go to the latest CARLA release">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/Docs/download.md" target="_blank" class="btn btn-neutral" title="Go to the latest CARLA release">
 <span class="icon icon-github"></span> CARLA repository</a>
 </p>
 </div>
@@ -108,7 +108,7 @@ The package is a compressed file named __CARLA_version.number__. Download and ex
 
 Each release has it's own additional package of extra assets and maps. This additional package includes the maps __Town06__, __Town07__, and __Town10__. These are stored separately to reduce the size of the build, so they can only be imported after the main package has been installed. 
 
-__1.__ [Download](https://github.com/carla-simulator/carla/blob/master/Docs/download.md) the appropriate package for your desired version of CARLA.
+__1.__ [Download](http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/Docs/download.md) the appropriate package for your desired version of CARLA.
 
 __2.__ Extract the package:
 
@@ -246,7 +246,7 @@ There are some configuration options available when launching CARLA and they can
 
 The script [`PythonAPI/util/config.py`][config] provides more configuration options and should be run when the server has been started:
 
-[config]: https://github.com/carla-simulator/carla/blob/master/PythonAPI/util/config.py
+[config]: http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/PythonAPI/util/config.py
 
 ```sh
     ./config.py --no-rendering      # Disable rendering
@@ -274,7 +274,7 @@ pip uninstall carla
 ---
 ## Follow-up
 
-By now you should have a packaged version of CARLA up and running. If you came across any difficulties during the installation process, feel free to post in the [CARLA forum](https://github.com/carla-simulator/carla/discussions/) or in the [Discord](https://discord.gg/8kqACuC) channel.
+By now you should have a packaged version of CARLA up and running. If you came across any difficulties during the installation process, feel free to post in the [CARLA forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/) or in the [Discord](https://discord.gg/8kqACuC) channel.
 
 The next step is to learn more about the core concepts in CARLA. Read the __First steps__ section to start learning. You can also find all the information about the Python API classes and methods in the [Python API reference](python_api.md).
 

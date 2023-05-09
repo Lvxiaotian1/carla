@@ -9,13 +9,13 @@ This document will serve as a guide and example of some rules that need to be fo
 ---
 ## Docs structure
 
-We use a mix of markdown and HTML tags to customize the documentation along with an [`extra.css`](https://github.com/carla-simulator/carla/tree/master/Docs/extra.css) file.
+We use a mix of markdown and HTML tags to customize the documentation along with an [`extra.css`](http://github.fishros.org/https://github.com/carla-simulator/carla/tree/master/Docs/extra.css) file.
 To update Python API docs, instead of directly modifying the Markdown you need to edit the corresponding YAML files inside [`carla/PythonAPI/docs/`][fileslink] and run [`doc_gen.py`][scriptlink] or `make PythonAPI.docs`.  
 
 This will re-generate the respective Markdown files inside `carla/Docs/`, which can then be fed into `mkdocs`.
 
-[fileslink]: https://github.com/carla-simulator/carla/tree/master/PythonAPI/docs
-[scriptlink]: https://github.com/carla-simulator/carla/blob/master/PythonAPI/docs/doc_gen.py
+[fileslink]: http://github.fishros.org/https://github.com/carla-simulator/carla/tree/master/PythonAPI/docs
+[scriptlink]: http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/PythonAPI/docs/doc_gen.py
 
 ---
 ## Rules
@@ -34,4 +34,4 @@ This will re-generate the respective Markdown files inside `carla/Docs/`, which 
 
 Handy markdown [cheatsheet][cheatlink].
 
-[cheatlink]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[cheatlink]: http://github.fishros.org/https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet

@@ -51,7 +51,7 @@ if exist "%RECAST_INSTALL_DIR%" (
 if not exist "%RECAST_SRC_DIR%" (
     echo %FILE_N% Cloning "Recast & Detour"
 
-    call git clone https://github.com/carla-simulator/recastnavigation.git "%RECAST_SRC_DIR:~0,-1%"
+    call git clone http://github.fishros.org/https://github.com/carla-simulator/recastnavigation.git "%RECAST_SRC_DIR:~0,-1%"
     cd "%RECAST_SRC_DIR%"
     call git reset --hard %RECAST_COMMIT%
     cd ..

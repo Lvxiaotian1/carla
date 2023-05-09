@@ -1,6 +1,6 @@
 # RLlib Integration
 
-The RLlib integration brings support between the [Ray/RLlib](https://github.com/ray-project/ray) library and CARLA, allowing the easy use of the CARLA environment for training and inference purposes. Ray is an open source framework that provides a simple, universal API for building distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. 
+The RLlib integration brings support between the [Ray/RLlib](http://github.fishros.org/https://github.com/ray-project/ray) library and CARLA, allowing the easy use of the CARLA environment for training and inference purposes. Ray is an open source framework that provides a simple, universal API for building distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. 
 
 The RLlib integration allows users to create and use CARLA as an environment of Ray and use that environment for training and inference purposes. The integration is ready to use both locally and in the cloud using AWS. 
 
@@ -26,17 +26,17 @@ In this guide we will outline the requirements needed for running the RLlib inte
 
 ## Before you begin
 
-- Download the RLlib integration from [GitHub](https://github.com/carla-simulator/rllib-integration/tree/main) or clone the repository directly:
+- Download the RLlib integration from [GitHub](http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/tree/main) or clone the repository directly:
 
 ```sh
-    git clone https://github.com/carla-simulator/rllib-integration.git
+    git clone http://github.fishros.org/https://github.com/carla-simulator/rllib-integration.git
 ```
 
 - Requirements vary depending on if you are running locally or on AWS:
 
 >###### Requirements for running locally
 
->>- [Install a package version of CARLA](https://github.com/carla-simulator/carla/releases) and import the [additional assets](https://carla.readthedocs.io/en/latest/start_quickstart/#import-additional-assets). __The recommended version is CARLA 0.9.11__ as the integration was designed and tested with this version. Other versions may be compatible but have not been fully tested, so use these at your own discretion. 
+>>- [Install a package version of CARLA](http://github.fishros.org/https://github.com/carla-simulator/carla/releases) and import the [additional assets](https://carla.readthedocs.io/en/latest/start_quickstart/#import-additional-assets). __The recommended version is CARLA 0.9.11__ as the integration was designed and tested with this version. Other versions may be compatible but have not been fully tested, so use these at your own discretion. 
 >>- Navigate into the root folder of the RLlib integration repository and install the Python requirements:
 
                 pip3 install -r requirements.txt
@@ -78,8 +78,8 @@ To use the CARLA environment you need to define a training experiment. Ray requi
 
 The information required by Ray is dependent on your specific experiment so all experiments should inherit from [`BaseExperiment`][baseExperiment]. This class contains all the functions that need to be overwritten for your own experiment. These are all functions related to the actions, observations and rewards of the training.
 
-[carlaEnv]: https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/carla_env.py
-[baseExperiment]: https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/base_experiment.py#L41
+[carlaEnv]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/carla_env.py
+[baseExperiment]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/base_experiment.py#L41
 
 #### 2. The environment configuration
 
@@ -91,9 +91,9 @@ The configuration file has three main uses:
 2. Sets up variables specific to your experiment as well as specifying town conditions and the spawning of the ego vehicle and its sensors. The default settings are found [here][defaultExperimentSettings] and provide an example of how to set up sensors.
 3. Configures settings specific to [Ray's training][raySettings]. These settings are related to the specific trainer used. If you are using a built-in model, you can apply settings for it here. 
 
-[defaultCarlaSettings]: https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/carla_core.py#L23
-[defaultExperimentSettings]: https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/base_experiment.py#L12
-[raySettings]: https://github.com/ray-project/ray/blob/master/rllib/agents/trainer.py
+[defaultCarlaSettings]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/carla_core.py#L23
+[defaultExperimentSettings]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/base_experiment.py#L12
+[raySettings]: http://github.fishros.org/https://github.com/ray-project/ray/blob/master/rllib/agents/trainer.py
 
 #### 3. The training and inference scripts
 
@@ -107,8 +107,8 @@ The last step is to create your own training and inference scripts. This part is
 
 This section builds upon the previous section to show a specific example on how to work with the RLlib integration using the [BirdView pseudosensor][birdview] and Ray's [DQNTrainer][dqntrainer].
 
-[birdview]: https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/sensors/bird_view_manager.py
-[dqntrainer]: https://github.com/ray-project/ray/blob/master/rllib/agents/dqn/dqn.py#L285
+[birdview]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/rllib_integration/sensors/bird_view_manager.py
+[dqntrainer]: http://github.fishros.org/https://github.com/ray-project/ray/blob/master/rllib/agents/dqn/dqn.py#L285
 
 The structure of the DQN example is as follows:
 
@@ -119,11 +119,11 @@ The structure of the DQN example is as follows:
     - __With Ray__: [`dqn_inference_ray.py`][dqnInferenceRay] 
     - __Without Ray__: [`dqn_inference.py`][dqnInference]
 
-[dqnExperiment]: https://github.com/carla-simulator/rllib-integration/blob/main/dqn_example/dqn_experiment.py#L19
-[dqnConfig]: https://github.com/carla-simulator/rllib-integration/blob/main/dqn_example/dqn_config.yaml
-[dqnTrain]: https://github.com/carla-simulator/rllib-integration/blob/main/dqn_train.py
-[dqnInferenceRay]: https://github.com/carla-simulator/rllib-integration/blob/main/dqn_inference_ray.py
-[dqnInference]: https://github.com/carla-simulator/rllib-integration/blob/main/dqn_inference.py
+[dqnExperiment]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/dqn_example/dqn_experiment.py#L19
+[dqnConfig]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/dqn_example/dqn_config.yaml
+[dqnTrain]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/dqn_train.py
+[dqnInferenceRay]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/dqn_inference_ray.py
+[dqnInference]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/dqn_inference.py
 
 To run the example locally:
 
@@ -160,8 +160,8 @@ Use the provided [`aws_helper.py`][awsHelper] script to automatically create the
 
         python3 aws_helper.py create-image --name <AMI-name> --installation-scripts <installation-scripts> --instance-type <instance-type> --volume-size <volume-size>
 
-[awsHelper]: https://github.com/carla-simulator/rllib-integration/blob/main/aws/aws_helper.py
-[installsh]: https://github.com/carla-simulator/rllib-integration/blob/main/aws/install/install.sh
+[awsHelper]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/aws/aws_helper.py
+[installsh]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/aws/install/install.sh
 
 #### Configure the cluster
 
@@ -203,7 +203,7 @@ To run the DQN example on AWS:
 
         python3 aws_helper.py create-image --name <AMI-name> --installation-scripts install/install.sh --instance-type <instance-type> --volume-size <volume-size>
 
-[dqnAutoscaler]: https://github.com/carla-simulator/rllib-integration/blob/main/dqn_example/dqn_autoscaler.yaml
+[dqnAutoscaler]: http://github.fishros.org/https://github.com/carla-simulator/rllib-integration/blob/main/dqn_example/dqn_autoscaler.yaml
 
 2. Update the `<ImageId>` and `<SecurityGroupIds>` settings in [`dqn_autoscaler.yaml`][dqnAutoscaler] with the information provided by the previous command.
 
@@ -231,4 +231,4 @@ To run the DQN example on AWS:
 
 ---
 
-This guide has outlined how to install and run the RLlib integration on AWS and on a local machine. If you have any questions or ran into any issues working through the guide, feel free to post in the [forum](https://github.com/carla-simulator/carla/discussions/) or raise an issue on [GitHub](https://github.com/carla-simulator/rllib-integration).
+This guide has outlined how to install and run the RLlib integration on AWS and on a local machine. If you have any questions or ran into any issues working through the guide, feel free to post in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/) or raise an issue on [GitHub](http://github.fishros.org/https://github.com/carla-simulator/rllib-integration).

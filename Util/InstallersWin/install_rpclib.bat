@@ -52,8 +52,8 @@ if exist "%RPC_INSTALL_DIR%" (
 if not exist "%RPC_SRC_DIR%" (
     echo %FILE_N% Cloning rpclib - version "%RPC_VERSION%"...
 
-    echo git clone -b "%RPC_VERSION%" https://github.com/carla-simulator/rpclib.git "%RPC_SRC_DIR:~0,-1%"
-    call git clone -b "%RPC_VERSION%" https://github.com/carla-simulator/rpclib.git "%RPC_SRC_DIR:~0,-1%"
+    echo git clone -b "%RPC_VERSION%" http://github.fishros.org/https://github.com/carla-simulator/rpclib.git "%RPC_SRC_DIR:~0,-1%"
+    call git clone -b "%RPC_VERSION%" http://github.fishros.org/https://github.com/carla-simulator/rpclib.git "%RPC_SRC_DIR:~0,-1%"
     if %errorlevel% neq 0 goto error_git
 ) else (
     echo %FILE_N% Not cloning rpclib because already exists a folder called "%RPC_SRC%".

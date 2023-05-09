@@ -70,11 +70,11 @@ For pedestrians to be spawned and navigate the map, you need to generate the ped
 
 ---
 
-If you have any questions about the above process, feel free to post these in the [forum](https://github.com/carla-simulator/carla/discussions).
+If you have any questions about the above process, feel free to post these in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions).
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

@@ -361,7 +361,7 @@ rem ============================================================================
     echo        http://carla.readthedocs.io/en/latest/how_to_build_on_windows/
     echo.
     echo    - If the problem persists, you can ask on our Github's "Building on Windows" issue:
-    echo        https://github.com/carla-simulator/carla/issues/21
+    echo        http://github.fishros.org/https://github.com/carla-simulator/carla/issues/21
     echo.
     echo    - Or just use our Discord channel!
     echo        We'll be glad to help you there :)

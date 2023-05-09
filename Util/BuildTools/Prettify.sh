@@ -68,7 +68,7 @@ else
 
   log "Retrieving Uncrustify."
 
-  git clone --depth=1 -b ${UNCRUSTIFY_BASENAME} https://github.com/uncrustify/uncrustify.git ${UNCRUSTIFY_BASENAME}-source
+  git clone --depth=1 -b ${UNCRUSTIFY_BASENAME} http://github.fishros.org/https://github.com/uncrustify/uncrustify.git ${UNCRUSTIFY_BASENAME}-source
 
   log "Building Uncrustify."
 

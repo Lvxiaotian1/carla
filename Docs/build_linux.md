@@ -4,7 +4,7 @@ This guide details how to build CARLA from source on Linux. There are two parts.
 
 The build process is long (4 hours or more) and involves several kinds of software. It is highly recommended to read through the guide fully before starting. 
 
-If you come across errors or difficulties then have a look at the **[F.A.Q.](build_faq.md)** page which offers solutions for the most common complications. Alternatively, use the [CARLA forum](https://github.com/carla-simulator/carla/discussions) to post any queries you may have.
+If you come across errors or difficulties then have a look at the **[F.A.Q.](build_faq.md)** page which offers solutions for the most common complications. Alternatively, use the [CARLA forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions) to post any queries you may have.
 
 - [__Part One: Prerequisites__](#part-one-prerequisites)
     - [System requirements](#system-requirements)
@@ -106,7 +106,7 @@ Be aware that to download this fork of Unreal Engine, __you need to have a GitHu
 __1.__ Clone the content for CARLA's fork of Unreal Engine 4.26 to your local computer:
 
 ```sh
-    git clone --depth 1 -b carla https://github.com/CarlaUnreal/UnrealEngine.git ~/UnrealEngine_4.26
+    git clone --depth 1 -b carla http://github.fishros.org/https://github.com/CarlaUnreal/UnrealEngine.git ~/UnrealEngine_4.26
 ```
 __2.__ Navigate into the directory where you cloned the repository:
 ```sh
@@ -134,14 +134,14 @@ __4.__ Open the Editor to check that Unreal Engine has been installed properly.
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla" target="_blank" class="btn btn-neutral" title="Go to the CARLA repository">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla" target="_blank" class="btn btn-neutral" title="Go to the CARLA repository">
 <span class="icon icon-github"></span> CARLA repository</a>
 </p>
 </div>
 The button above will take you to the official repository of the project. Either download from there and extract it locally or clone it using the following command:
 
 ```sh
-        git clone https://github.com/carla-simulator/carla
+        git clone http://github.fishros.org/https://github.com/carla-simulator/carla
 ```
 
 !!! Note
@@ -302,7 +302,7 @@ There are more `make` commands that you may find useful. Find them in the table 
 
 ---
 
-Read the **[F.A.Q.](build_faq.md)** page or post in the [CARLA forum](https://github.com/carla-simulator/carla/discussions) for any issues regarding this guide.  
+Read the **[F.A.Q.](build_faq.md)** page or post in the [CARLA forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions) for any issues regarding this guide.  
 
 Up next, learn how to update the CARLA build or take your first steps in the simulation, and learn some core concepts.  
 <div class="build-buttons">

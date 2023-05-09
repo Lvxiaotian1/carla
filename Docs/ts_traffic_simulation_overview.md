@@ -15,7 +15,7 @@ Scenario Runner provides [predefined traffic scenarios](https://carla-scenarioru
 
 The primary use of OpenSCENARIO is the description of complex maneuvers that involve multiple vehicles. Users can see which features of OpenSCENARIO are supported by Scenario Runner [here](https://carla-scenariorunner.readthedocs.io/en/latest/openscenario_support/). These features include Maneuvers, Actions, Conditions, Stories and the Storyboard. 
 
-Scenario Runner has to be installed [separately](https://github.com/carla-simulator/scenario_runner) from the main CARLA package.
+Scenario Runner has to be installed [separately](http://github.fishros.org/https://github.com/carla-simulator/scenario_runner) from the main CARLA package.
 
 __Useful for:__
 
@@ -93,7 +93,7 @@ If you have any doubts about the different options available to simulate traffic
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

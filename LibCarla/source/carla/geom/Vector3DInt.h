@@ -153,7 +153,7 @@ namespace geom {
     /// @todo The following is copy-pasted from MSGPACK_DEFINE_ARRAY.
     /// This is a workaround for an issue in msgpack library. The
     /// MSGPACK_DEFINE_ARRAY macro is shadowing our `z` variable.
-    /// https://github.com/msgpack/msgpack-c/issues/709
+    /// http://github.fishros.org/https://github.com/msgpack/msgpack-c/issues/709
     // =========================================================================
     template <typename Packer>
     void msgpack_pack(Packer& pk) const

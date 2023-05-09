@@ -9,7 +9,7 @@
 	"CreatedByURL": "http://carla.org",
 	"DocsURL": "http://carla.readthedocs.io",
 	"MarketplaceURL": "",
-	"SupportURL": "https://github.com/carla-simulator/carla/issues",
+	"SupportURL": "http://github.fishros.org/https://github.com/carla-simulator/carla/issues",
 	"CanContainContent": true,
 	"IsBetaVersion": true,
 	"Installed": true,

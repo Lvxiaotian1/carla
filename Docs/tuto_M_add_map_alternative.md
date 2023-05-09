@@ -168,4 +168,4 @@ Once you have finished with the customization, you can [generate the pedestrian 
 
 ---
 
-It is recommended to use the automated processes for importing maps detailed in the guides for [CARLA packages](tuto_M_add_map_package.md) and [CARLA source build](tuto_M_add_map_source.md), however the methods listed in this section can be used if required. If you encounter any issues with the alternative methods, feel free to post in the [forum](https://github.com/carla-simulator/carla/discussions).
+It is recommended to use the automated processes for importing maps detailed in the guides for [CARLA packages](tuto_M_add_map_package.md) and [CARLA source build](tuto_M_add_map_source.md), however the methods listed in this section can be used if required. If you encounter any issues with the alternative methods, feel free to post in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions).

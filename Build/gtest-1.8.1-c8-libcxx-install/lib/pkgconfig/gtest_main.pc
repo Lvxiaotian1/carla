@@ -4,7 +4,7 @@ includedir=/home/lvxiaotian/Carla_0.9.13/Build/gtest-1.8.1-c8-libcxx-install/inc
 Name: gtest_main
 Description: GoogleTest (with main() function)
 Version: 1.9.0
-URL: https://github.com/google/googletest
+URL: http://github.fishros.org/https://github.com/google/googletest
 Requires: gtest
 Libs: -L${libdir} -lgtest_main -pthread
 Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 -pthread

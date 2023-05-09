@@ -50,7 +50,7 @@ if exist "%GT_INSTALL_DIR%" (
 if not exist "%GT_SRC_DIR%" (
     echo %FILE_N% Cloning Google Test - version "%GT_VERSION%"...
 
-    call git clone --depth=1 -b "%GT_VERSION%" https://github.com/google/googletest.git "%GT_SRC_DIR:~0,-1%"
+    call git clone --depth=1 -b "%GT_VERSION%" http://github.fishros.org/https://github.com/google/googletest.git "%GT_SRC_DIR:~0,-1%"
     if %errorlevel% neq 0 goto error_git
 ) else (
     echo %FILE_N% Not cloning Google Test because already exists a folder called "%GT_SRC%".

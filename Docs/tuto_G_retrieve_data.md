@@ -225,7 +225,7 @@ sudo apt-get install sumo sumo-tools sumo-doc
 ```sh
 echo "export SUMO_HOME=/usr/share/sumo" >> ~/.bashrc && source ~/.bashrc
 ```
-* With the CARLA server on, run the [SUMO-CARLA synchrony script](https://github.com/carla-simulator/carla/blob/master/Co-Simulation/Sumo/run_synchronization.py). 
+* With the CARLA server on, run the [SUMO-CARLA synchrony script](http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/Co-Simulation/Sumo/run_synchronization.py). 
 ```sh
 cd ~/carla/Co-Simulation/Sumo
 python3 run_synchronization.py examples/Town01.sumocfg --sumo-gui
@@ -1336,7 +1336,7 @@ Visit the forum to post any doubts or suggestions that have come to mind during 
 <div text-align: center>
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="CARLA forum">
 CARLA forum</a>
 </p>
 </div>

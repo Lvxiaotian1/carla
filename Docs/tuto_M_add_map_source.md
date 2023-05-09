@@ -68,4 +68,4 @@ Once you have finished with the customization, you can [generate the pedestrian 
 
 ---
 
-If you have any questions about the process, then you can ask in the [forum](https://github.com/carla-simulator/carla/discussions).
+If you have any questions about the process, then you can ask in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions).

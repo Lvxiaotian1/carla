@@ -5,9 +5,9 @@ CARLA Simulator
 [![Documentation](https://readthedocs.org/projects/carla/badge/?version=latest)](http://carla.readthedocs.io)
 
 [![carla.org](Docs/img/btn/web.png)](http://carla.org)
-[![download](Docs/img/btn/download.png)](https://github.com/carla-simulator/carla/blob/master/Docs/download.md)
+[![download](Docs/img/btn/download.png)](http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/Docs/download.md)
 [![documentation](Docs/img/btn/docs.png)](http://carla.readthedocs.io)
-[![forum](Docs/img/btn/forum.png)](https://github.com/carla-simulator/carla/discussions)
+[![forum](Docs/img/btn/forum.png)](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions)
 [![discord](Docs/img/btn/chat.png)](https://discord.gg/8kqACuC)
 
 CARLA is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and
@@ -19,7 +19,7 @@ environmental conditions.
 
 If you want to benchmark your model in the same conditions as in our CoRL’17
 paper, check out
-[Benchmarking](https://github.com/carla-simulator/driving-benchmarks).
+[Benchmarking](http://github.fishros.org/https://github.com/carla-simulator/driving-benchmarks).
 
 * [**Get CARLA overnight build**](http://carla-releases.s3.amazonaws.com/Linux/Dev/CARLA_Latest.tar.gz)
 
@@ -34,13 +34,13 @@ paper, check out
 Repositories associated to the CARLA simulation platform:
 
 * [**CARLA Autonomous Driving leaderboard**](https://leaderboard.carla.org/): Automatic platform to validate Autonomous Driving stacks
-* [**Scenario_Runner**](https://github.com/carla-simulator/scenario_runner): Engine to execute traffic scenarios in CARLA 0.9.X
-* [**ROS-bridge**](https://github.com/carla-simulator/ros-bridge): Interface to connect CARLA 0.9.X to ROS
-* [**Driving-benchmarks**](https://github.com/carla-simulator/driving-benchmarks): Benchmark tools for Autonomous Driving tasks
-* [**Conditional Imitation-Learning**](https://github.com/felipecode/coiltraine): Training and testing Conditional Imitation Learning models in CARLA
-* [**AutoWare AV stack**](https://github.com/carla-simulator/carla-autoware): Bridge to connect AutoWare AV stack to CARLA
-* [**Reinforcement-Learning**](https://github.com/carla-simulator/reinforcement-learning): Code for running Conditional Reinforcement Learning models in CARLA
-* [**Map Editor**](https://github.com/carla-simulator/carla-map-editor): Standalone GUI application to enhance RoadRunner maps with traffic lights and traffic signs information
+* [**Scenario_Runner**](http://github.fishros.org/https://github.com/carla-simulator/scenario_runner): Engine to execute traffic scenarios in CARLA 0.9.X
+* [**ROS-bridge**](http://github.fishros.org/https://github.com/carla-simulator/ros-bridge): Interface to connect CARLA 0.9.X to ROS
+* [**Driving-benchmarks**](http://github.fishros.org/https://github.com/carla-simulator/driving-benchmarks): Benchmark tools for Autonomous Driving tasks
+* [**Conditional Imitation-Learning**](http://github.fishros.org/https://github.com/felipecode/coiltraine): Training and testing Conditional Imitation Learning models in CARLA
+* [**AutoWare AV stack**](http://github.fishros.org/https://github.com/carla-simulator/carla-autoware): Bridge to connect AutoWare AV stack to CARLA
+* [**Reinforcement-Learning**](http://github.fishros.org/https://github.com/carla-simulator/reinforcement-learning): Code for running Conditional Reinforcement Learning models in CARLA
+* [**Map Editor**](http://github.fishros.org/https://github.com/carla-simulator/carla-map-editor): Standalone GUI application to enhance RoadRunner maps with traffic lights and traffic signs information
 
 **Like what you see? Star us on GitHub to support the project!**
 
@@ -85,7 +85,7 @@ Unfortunately we don't have official instructions to build on Mac yet, please ch
 
 [buildlinuxlink]: https://carla.readthedocs.io/en/latest/build_linux/
 [buildwindowslink]: https://carla.readthedocs.io/en/latest/build_windows/
-[issue150]: https://github.com/carla-simulator/carla/issues/150
+[issue150]: http://github.fishros.org/https://github.com/carla-simulator/carla/issues/150
 
 Contributing
 ------------

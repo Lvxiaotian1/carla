@@ -190,7 +190,7 @@ Check out the `basic_agent.py` and `behavior_agent.py` scripts to explore their 
 
 ---
 
-You can explore the provided agent scripts, expand upon them or use them as a baseline to create your own. If you have any questions about the agents, feel free to post in the [forum](https://github.com/carla-simulator/carla/discussions/).
+You can explore the provided agent scripts, expand upon them or use them as a baseline to create your own. If you have any questions about the agents, feel free to post in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/).
 
 
 

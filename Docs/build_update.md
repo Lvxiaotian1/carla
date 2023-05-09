@@ -13,7 +13,7 @@ To post unexpected issues, doubts or suggestions, feel free to login in the CARL
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the latest CARLA release">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the latest CARLA release">
 CARLA forum</a>
 </p>
 </div>
@@ -64,7 +64,7 @@ Releases are listed in __Development__ in the CARLA repository. There is also a 
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/blob/master/Docs/download.md" target="_blank" class="btn btn-neutral" title="Go to the list of CARLA releases">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/Docs/download.md" target="_blank" class="btn btn-neutral" title="Go to the list of CARLA releases">
 <span class="icon icon-github"></span> Get releases</a>
 </p>
 
@@ -139,4 +139,4 @@ git clone https://bitbucket.org/carla-simulator/carla-content Unreal/CarlaUE4/Co
     Delete the `/Carla` folder containing the assets before cloning the repository. Otherwise, an error will show. 
 
 [contentrepolink]: https://bitbucket.org/carla-simulator/carla-content
-[gitlfslink]: https://github.com/git-lfs/git-lfs/wiki/Installation
+[gitlfslink]: http://github.fishros.org/https://github.com/git-lfs/git-lfs/wiki/Installation

@@ -28,7 +28,7 @@ You will need to have installed:
 
 __1. Pull the CARLA image.__
 
-You can pull either the latest CARLA image or a specific release version. The latest image refers to the most [recent packaged release](https://github.com/carla-simulator/carla/releases). To pull the image, run one of the following commands:
+You can pull either the latest CARLA image or a specific release version. The latest image refers to the most [recent packaged release](http://github.fishros.org/https://github.com/carla-simulator/carla/releases). To pull the image, run one of the following commands:
 
 ```sh
 # Pull the latest image
@@ -96,7 +96,7 @@ Any issues or doubts related with this topic can be posted in the CARLA forum.
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

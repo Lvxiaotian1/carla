@@ -296,7 +296,7 @@
 # define GTEST_FLAG_PREFIX_DASH_ "gtest-"
 # define GTEST_FLAG_PREFIX_UPPER_ "GTEST_"
 # define GTEST_NAME_ "Google Test"
-# define GTEST_PROJECT_URL_ "https://github.com/google/googletest/"
+# define GTEST_PROJECT_URL_ "http://github.fishros.org/https://github.com/google/googletest/"
 #endif  // !defined(GTEST_DEV_EMAIL_)
 
 #if !defined(GTEST_INIT_GOOGLE_TEST_NAME_)

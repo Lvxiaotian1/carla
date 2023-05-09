@@ -501,7 +501,7 @@ Since these effects are provided by UE, please make sure to check their document
 !!! Important
     It is highly recommended to read the specific [rss documentation](adv_rss.md) before reading this.
 
-This sensor integrates the [C++ Library for Responsibility Sensitive Safety](https://github.com/intel/ad-rss-lib) in CARLA. It is disabled by default in CARLA, and it has to be explicitly built in order to be used.
+This sensor integrates the [C++ Library for Responsibility Sensitive Safety](http://github.fishros.org/https://github.com/intel/ad-rss-lib) in CARLA. It is disabled by default in CARLA, and it has to be explicitly built in order to be used.
 
 The RSS sensor calculates the RSS state of a vehicle and retrieves the current RSS Response as sensor data. The [carla.RssRestrictor](python_api.md#carla.RssRestrictor) will use this data to adapt a [carla.VehicleControl](python_api.md#carla.VehicleControl) before applying it to a vehicle.
 
@@ -824,7 +824,7 @@ should increase accordingly with the dynamics of the scene. The user should find
 
 The provided script [`manual_control.py`][manual_control] uses the DVS camera in order to show how to configure the sensor, how to get the stream of events and how to depict such events in an image format, usually called event frame.
 
-[manual_control]: https://github.com/carla-simulator/carla/blob/master/PythonAPI/examples/manual_control.py
+[manual_control]: http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/PythonAPI/examples/manual_control.py
 
 Note that due to the sampling method of the DVS camera, if there is no pixel difference between two consecutive synchronous frames the camera will not return an image. This will always occur in the first frame, as there is no previous frame to compare to and also in the event that there has been no movement between frames. 
 

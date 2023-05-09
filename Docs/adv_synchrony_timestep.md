@@ -155,7 +155,7 @@ while True:
     world.tick()
     image = image_queue.get()
 ```
-[syncmodelink]: https://github.com/carla-simulator/carla/blob/master/PythonAPI/examples/synchronous_mode.py
+[syncmodelink]: http://github.fishros.org/https://github.com/carla-simulator/carla/blob/master/PythonAPI/examples/synchronous_mode.py
 
 
 !!! Important
@@ -275,7 +275,7 @@ Open CARLA and mess around for a while. Any suggestions or doubts are welcome in
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

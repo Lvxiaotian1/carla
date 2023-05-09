@@ -170,7 +170,7 @@ setup(
     description='Python API for communicating with the CARLA server.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/carla-simulator/carla',
+    url='http://github.fishros.org/https://github.com/carla-simulator/carla',
     author='The CARLA team',
     author_email='carla.simulator@gmail.com',
     include_package_data=True)

@@ -31,10 +31,10 @@ This process is only available for Linux systems. The import process involves ru
 __1.__ CARLA provides all the utilities to build Unreal Engine in a Docker image and to compile CARLA using that image. The tools are found in the source code available in GitHub. Clone the repository using the following command:
 
 ```sh
-    git clone https://github.com/carla-simulator/carla
+    git clone http://github.fishros.org/https://github.com/carla-simulator/carla
 ```
 
-__2.__ Build the Docker image of Unreal Engine by following [these instructions](https://github.com/carla-simulator/carla/tree/master/Util/Docker). 
+__2.__ Build the Docker image of Unreal Engine by following [these instructions](http://github.fishros.org/https://github.com/carla-simulator/carla/tree/master/Util/Docker). 
 
 __3.__ Create an `input_folder`.  This is where you will put the files to be imported. Docker will automatically create a `.json` file describing the package folder structure. Change permissions on the `input_folder` for this to be created successfully:
 
@@ -73,4 +73,4 @@ __7.__ To run a simulation with the new map, run CARLA and then change the map u
 
 ---
 
-Your map is now ready to run simulations in CARLA. If you have any questions about the process then you can ask in the [forum](https://github.com/carla-simulator/carla/discussions) or you can try running some of our [example scripts](https://github.com/carla-simulator/carla/tree/master/PythonAPI/examples) on your new map to test it out.
+Your map is now ready to run simulations in CARLA. If you have any questions about the process then you can ask in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions) or you can try running some of our [example scripts](http://github.fishros.org/https://github.com/carla-simulator/carla/tree/master/PythonAPI/examples) on your new map to test it out.

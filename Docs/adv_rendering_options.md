@@ -155,7 +155,7 @@ __7. Run CARLA:__
 DISPLAY=:0.GPU ./CarlaUE4.sh -vulkan
 ```
 
-CARLA provides a Dockerfile that performs all the above steps [here](https://github.com/carla-simulator/carla/blob/0.9.12/Util/Docker/Release.Dockerfile).
+CARLA provides a Dockerfile that performs all the above steps [here](http://github.fishros.org/https://github.com/carla-simulator/carla/blob/0.9.12/Util/Docker/Release.Dockerfile).
 
 ---
 
@@ -163,7 +163,7 @@ Any issues or doubts related with this topic can be posted in the CARLA forum.
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

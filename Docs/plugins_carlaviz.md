@@ -12,7 +12,7 @@ The carlaviz plugin is used to visualize the simulation in a web browser. A wind
 ---
 ## General information
 
-*   __Contributor__ — Minjun Xu, also known as [wx9698](https://github.com/wx9698).  
+*   __Contributor__ — Minjun Xu, also known as [wx9698](http://github.fishros.org/https://github.com/wx9698).  
 *   __License__ — [MIT](https://en.wikipedia.org/wiki/MIT_License).  
 
 ### Support
@@ -56,7 +56,7 @@ CARLA up to 0.9.9 (included) is set to be single-stream. For later versions, mul
 * __In multi-stream__, a sensor can be heard by multiple clients. carlaviz has no need to duplicate these and performance does not suffer.  
 
 !!! Note
-    Alternatively on Linux, users can build carlaviz following the instructions [here](https://github.com/carla-simulator/carlaviz/blob/master/docs/build.md), but using a Docker image will make things much easier.  
+    Alternatively on Linux, users can build carlaviz following the instructions [here](http://github.fishros.org/https://github.com/carla-simulator/carlaviz/blob/master/docs/build.md), but using a Docker image will make things much easier.  
 
 ---
 ## Run carlaviz
@@ -105,7 +105,7 @@ Here is a list of options available for visualization. Additional elements may s
 *   __/vehicle__ — Show properties of the ego vehicle. Includes a speedometer and accelerometer in the visualization window, and the data retrieved by IMU, GNSS and collision detector sensors.  
 	*   `/velocity` — Velocity of the ego vehicle.  
 	*   `/acceleration` — Acceleration of the ego vehicle.  
-*   __/drawing__ — Show additional elements in the visualization window drawn with [CarlaPainter](https://github.com/wx9698/carlaviz/blob/master/examples/carla_painter.py).  
+*   __/drawing__ — Show additional elements in the visualization window drawn with [CarlaPainter](http://github.fishros.org/https://github.com/wx9698/carlaviz/blob/master/examples/carla_painter.py).  
 	*   `/texts` — Text elements.  
 	*   `/points` — Point elements.  
 	*   `/polylines` — Polyline elements.  
@@ -140,7 +140,7 @@ python3 manual_control.py
 
 ![carlaviz_data](img/plugins_carlaviz_data.jpg)
 
-The contributor ([wx9698](https://github.com/wx9698)), created an additional class, [CarlaPainter](https://github.com/wx9698/carlaviz/blob/master/examples/carla_painter.py), that allows the user to draw elements to be shown in the visualization window. These include text, points and polylines. Follow [this example](https://github.com/carla-simulator/carlaviz/blob/master/examples/example.py) to spawn an ego vehicle with a LIDAR, and draw the LIDAR data, the trajectory and velocity of the vehicle.  
+The contributor ([wx9698](http://github.fishros.org/https://github.com/wx9698)), created an additional class, [CarlaPainter](http://github.fishros.org/https://github.com/wx9698/carlaviz/blob/master/examples/carla_painter.py), that allows the user to draw elements to be shown in the visualization window. These include text, points and polylines. Follow [this example](http://github.fishros.org/https://github.com/carla-simulator/carlaviz/blob/master/examples/example.py) to spawn an ego vehicle with a LIDAR, and draw the LIDAR data, the trajectory and velocity of the vehicle.  
 
 ![carlaviz_demo](img/plugins_carlaviz_demo.jpg)
 
@@ -150,7 +150,7 @@ That is all there is to know about the carlaviz plugin. If there are any doubts,
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

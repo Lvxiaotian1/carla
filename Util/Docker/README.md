@@ -4,7 +4,7 @@ _These instructions have been tested in **Ubuntu 16.04**._
 
 This file is intended to explain how to build a Docker image that uses **Ubuntu 18.04** to compile Carla.
 
-Since this building process is based on [**ue4-docker**](https://github.com/adamrehn/ue4-docker) project, it is recommended to take a look at their [documentation](https://adamrehn.com/docs/ue4-docker/read-these-first/introduction-to-ue4-docker).
+Since this building process is based on [**ue4-docker**](http://github.fishros.org/https://github.com/adamrehn/ue4-docker) project, it is recommended to take a look at their [documentation](https://adamrehn.com/docs/ue4-docker/read-these-first/introduction-to-ue4-docker).
 
 ## Important information
 
@@ -34,7 +34,7 @@ Make sure you have installed **Python 3.6 or newer**, check that is in the path,
 
 ## Dependencies
 
-As mentioned before, in order to use Unreal Engine inside Docker we use [ue4-docker](https://github.com/adamrehn/ue4-docker). You can install it using `pip3`.  
+As mentioned before, in order to use Unreal Engine inside Docker we use [ue4-docker](http://github.fishros.org/https://github.com/adamrehn/ue4-docker). You can install it using `pip3`.  
 Further information on installing ue4-docker on Linux can be found [here](https://adamrehn.com/docs/ue4-docker/configuration/configuring-linux).
 
 ```
@@ -86,7 +86,7 @@ ue4-docker clean
 
 ## Using the Docker tools
 
-The `docker_tools.py` (in `/carla/Util/Docker`) is an example of how you can take advantages of these Docker images. It uses [docker-py](https://github.com/docker/docker-py) whose documentation can be found [here](https://docker-py.readthedocs.io/en/stable/).  
+The `docker_tools.py` (in `/carla/Util/Docker`) is an example of how you can take advantages of these Docker images. It uses [docker-py](http://github.fishros.org/https://github.com/docker/docker-py) whose documentation can be found [here](https://docker-py.readthedocs.io/en/stable/).  
 The code is really simple and can be easily expanded to interact with docker in other ways.
 
 You can create a Carla package (distribution) from the Docker image using:

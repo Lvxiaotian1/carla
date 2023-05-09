@@ -28,7 +28,7 @@
    `git push --tags`. Create a Pull Request if necessary.
 
 7. **Edit GitHub release.**<br>
-   Go to [GitHub releases](https://github.com/carla-simulator/carla/releases)
+   Go to [GitHub releases](http://github.fishros.org/https://github.com/carla-simulator/carla/releases)
    and create a new release on top of the newly created tag. Wait until Jenkins
    has finished publishing the builds with the latest version and add the
    download links to the newly created release.

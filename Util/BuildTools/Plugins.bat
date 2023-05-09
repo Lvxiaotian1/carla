@@ -33,10 +33,10 @@ rem ============================================================================
 if not exist "%ROOT_PATH%Plugins" (
     if %RELEASE% == true (
         echo Cloning for release...
-        call git clone --depth=1 --recursive https://github.com/carla-simulator/carla-plugins.git "%ROOT_PATH%Plugins"
+        call git clone --depth=1 --recursive http://github.fishros.org/https://github.com/carla-simulator/carla-plugins.git "%ROOT_PATH%Plugins"
     ) else (
         echo Cloning for build...
-        call git clone --recursive https://github.com/carla-simulator/carla-plugins.git "%ROOT_PATH%Plugins"
+        call git clone --recursive http://github.fishros.org/https://github.com/carla-simulator/carla-plugins.git "%ROOT_PATH%Plugins"
     )
     if %errorlevel% neq 0 goto error_git
 ) else (

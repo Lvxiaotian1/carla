@@ -41,7 +41,7 @@ The Dockerfiles and tools needed to build Unreal Engine for CARLA and CARLA itse
 If you don't already have it, download the repository using the following command:
 
 ```sh
-git clone https://github.com/carla-simulator/carla
+git clone http://github.fishros.org/https://github.com/carla-simulator/carla
 ```
 
 ---
@@ -76,7 +76,7 @@ docker build -t carla -f Carla.Dockerfile . --build-arg GIT_BRANCH=<branch_or_ta
 
 ## Next Steps: Packages
 
-The CARLA image created in this guide is used to create standalone CARLA packages or to package assets such as maps or meshes so they can be used in a CARLA package. This is achieved through the use of the `docker_tools.py` script found in `Util/Docker`. This script uses [`docker-py`](https://github.com/docker/docker-py) to work with the Docker image.
+The CARLA image created in this guide is used to create standalone CARLA packages or to package assets such as maps or meshes so they can be used in a CARLA package. This is achieved through the use of the `docker_tools.py` script found in `Util/Docker`. This script uses [`docker-py`](http://github.fishros.org/https://github.com/docker/docker-py) to work with the Docker image.
 
 The `docker_tools.py` script can be used to:
 
@@ -90,7 +90,7 @@ Any issues or doubts related with this topic can be posted in the CARLA forum.
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

@@ -20,6 +20,6 @@ update this link to the latest version.
    Commit the changes and open a new Pull Request.
 
 [contentrepolink]: https://bitbucket.org/carla-simulator/carla-content
-[carlarepolink]: https://github.com/carla-simulator/carla
+[carlarepolink]: http://github.fishros.org/https://github.com/carla-simulator/carla
 [jenkinslink]: http://35.181.165.160:8080/blue/organizations/jenkins/carla-content/activity
-[cvlink]: https://github.com/carla-simulator/carla/edit/master/Util/ContentVersions.txt
+[cvlink]: http://github.fishros.org/https://github.com/carla-simulator/carla/edit/master/Util/ContentVersions.txt

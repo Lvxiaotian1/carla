@@ -138,11 +138,11 @@ This will create a standalone package compressed in a `.tar.gz` file. The files 
 
 ---
 
-If you have any questions about the large map import and packaging process, then you can ask in the [forum](https://github.com/carla-simulator/carla/discussions).
+If you have any questions about the large map import and packaging process, then you can ask in the [forum](http://github.fishros.org/https://github.com/carla-simulator/carla/discussions).
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

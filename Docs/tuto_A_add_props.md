@@ -114,7 +114,7 @@ This is the method used to ingest the props into a CARLA package such as CARLA 0
 
 A Docker image of Unreal Engine will be created. It acts as a black box that automatically imports the package into the CARLA image, and generates a ditribution package. The Docker image takes 4h and 400GB to be built. However, this is only needed the first time. 
 
-__1. Build a Docker image of Unreal Engine.__ Follow [these instructions](https://github.com/carla-simulator/carla/tree/master/Util/Docker) to build the image.  
+__1. Build a Docker image of Unreal Engine.__ Follow [these instructions](http://github.fishros.org/https://github.com/carla-simulator/carla/tree/master/Util/Docker) to build the image.  
 
 __2. Run the script to cook the props.__ In the folder `~/carla/Util/Docker` there is a script that connects with the Docker image previously created, and makes the ingestion automatically. It only needs the path for the input and output files, and the name of the package to be ingested.  
 
@@ -161,7 +161,7 @@ That is all there is to know about the different ways to import new props into C
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

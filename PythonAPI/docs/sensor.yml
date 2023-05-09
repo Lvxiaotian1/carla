@@ -55,7 +55,7 @@
       This sensor works a bit differently than the rest. Take look at the [specific documentation](adv_rss.md), and the [rss sensor reference](ref_sensors.md#rss-sensor) to gain full understanding of it.
 
 
-      The RSS sensor uses world information, and a [RSS library](https://github.com/intel/ad-rss-lib) to make safety checks on a vehicle. The output retrieved by the sensor is a carla.RssResponse. This will be used by a carla.RssRestrictor to modify a carla.VehicleControl before applying it to a vehicle.
+      The RSS sensor uses world information, and a [RSS library](http://github.fishros.org/https://github.com/intel/ad-rss-lib) to make safety checks on a vehicle. The output retrieved by the sensor is a carla.RssResponse. This will be used by a carla.RssRestrictor to modify a carla.VehicleControl before applying it to a vehicle.
     # - PROPERTIES -------------------------
     instance_variables:
     - var_name: ego_vehicle_dynamics
@@ -125,7 +125,7 @@
     parent:
     # - DESCRIPTION ------------------------
     doc: >
-      These objects apply restrictions to a carla.VehicleControl. It is part of the CARLA implementation of the [C++ Library for Responsibility Sensitive Safety](https://github.com/intel/ad-rss-lib). This class works hand in hand with a [rss sensor](ref_sensors.md#rss-sensor), which provides the data of the restrictions to be applied.
+      These objects apply restrictions to a carla.VehicleControl. It is part of the CARLA implementation of the [C++ Library for Responsibility Sensitive Safety](http://github.fishros.org/https://github.com/intel/ad-rss-lib). This class works hand in hand with a [rss sensor](ref_sensors.md#rss-sensor), which provides the data of the restrictions to be applied.
     # - PROPERTIES -------------------------
     instance_variables:
 

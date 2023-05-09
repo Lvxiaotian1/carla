@@ -5,7 +5,7 @@ This tutorial explains how to create more accurate collision boundaries for vehi
 There are two approaches to create the new colliders, but they are not completely equivalent.  
 
 *   __Raycast colliders__ — This approach requires some basic 3D modelling skills. A secondary collider is added to the vehicle so that raycast-based sensors such as the LIDAR retrieve more precise data.  
-*   __Physics colliders__ — This approach follows the [tutorial](https://bitbucket.org/yankagan/carla-content/wiki/Home) created by the contributor __[Yan Kaganovsky / yankagan](https://github.com/yankagan)__ to create a mesh with no need of manual modelling. This mesh is then used as main collider for the vehicle, for physics and sensor detection (unless a secondary collider is added).  
+*   __Physics colliders__ — This approach follows the [tutorial](https://bitbucket.org/yankagan/carla-content/wiki/Home) created by the contributor __[Yan Kaganovsky / yankagan](http://github.fishros.org/https://github.com/yankagan)__ to create a mesh with no need of manual modelling. This mesh is then used as main collider for the vehicle, for physics and sensor detection (unless a secondary collider is added).  
 
 ---
 
@@ -67,7 +67,7 @@ __4.3__ Press `Compile` in the toolbar above and save the changes.
 ## Physics colliders
 
 !!! Important
-    This tutorial is based on a [contribution](https://bitbucket.org/yankagan/carla-content/wiki/Home) made by __[yankagan](https://github.com/yankagan)__! The contributor also wants to aknowledge __Francisco E__ for the tutorial on [how to import custom collisions in UE](https://www.youtube.com/watch?v=SEH4f0HrCDM).  
+    This tutorial is based on a [contribution](https://bitbucket.org/yankagan/carla-content/wiki/Home) made by __[yankagan](http://github.fishros.org/https://github.com/yankagan)__! The contributor also wants to aknowledge __Francisco E__ for the tutorial on [how to import custom collisions in UE](https://www.youtube.com/watch?v=SEH4f0HrCDM).  
 
 [This video](https://www.youtube.com/watch?v=CXK2M2cNQ4Y) shows the results achieved after following this tutorial.  
 
@@ -75,7 +75,7 @@ __4.3__ Press `Compile` in the toolbar above and save the changes.
 
 *   __Build CARLA from source__ on [Linux](build_linux.md) or [Windows](build_windows.md).  
 *   __Blender 2.80 or newer__ from the [official site](https://www.blender.org/download/) for free (open-source 3D modelling software).  
-*   __VHACD Plugin for Blender__ following the using the instructions in [here](https://github.com/andyp123/blender_vhacd). This plugin automatically creates an approximation of a selected object using a collection of convex hulls. [Read more](https://github.com/kmammou/v-hacd).  
+*   __VHACD Plugin for Blender__ following the using the instructions in [here](http://github.fishros.org/https://github.com/andyp123/blender_vhacd). This plugin automatically creates an approximation of a selected object using a collection of convex hulls. [Read more](http://github.fishros.org/https://github.com/kmammou/v-hacd).  
 
 !!! Note
     This [series](https://www.youtube.com/watch?v=ppASl6yaguU) and [Udemy course](https://www.udemy.com/course/blender-3d-from-zero-to-hero/?pmtag=MRY1010) may be a good introduction to Blender for newcomers. 
@@ -134,7 +134,7 @@ Open CARLA and mess around for a while. If there are any doubts, feel free to po
 
 <div class="build-buttons">
 <p>
-<a href="https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
+<a href="http://github.fishros.org/https://github.com/carla-simulator/carla/discussions/" target="_blank" class="btn btn-neutral" title="Go to the CARLA forum">
 CARLA forum</a>
 </p>
 </div>

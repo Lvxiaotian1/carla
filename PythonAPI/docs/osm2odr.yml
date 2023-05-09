@@ -65,7 +65,7 @@
     - var_name: proj_string
       type: str
       doc: >
-        Defines the [proj4](https://github.com/OSGeo/proj.4) string that will be used to compute the projection from geocoordinates to cartesian coordinates. This string will be written in the resulting OpenDRIVE unless the options `use_offsets` or `center_map` are enabled as these options override some of the definitions in the string.
+        Defines the [proj4](http://github.fishros.org/https://github.com/OSGeo/proj.4) string that will be used to compute the projection from geocoordinates to cartesian coordinates. This string will be written in the resulting OpenDRIVE unless the options `use_offsets` or `center_map` are enabled as these options override some of the definitions in the string.
     - var_name: generate_traffic_lights
       type: bool
       doc: >

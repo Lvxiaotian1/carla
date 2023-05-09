@@ -22,7 +22,7 @@ set BUILD_OSM2ODR=false
 set GIT_PULL=true
 set CURRENT_OSM2ODR_COMMIT=ee0c2b9241fef5365a6bc044ac82e6580b8ce936
 set OSM2ODR_BRANCH=carla_osm2odr
-set OSM2ODR_REPO=https://github.com/carla-simulator/sumo.git
+set OSM2ODR_REPO=http://github.fishros.org/https://github.com/carla-simulator/sumo.git
 
 :arg-parse
 if not "%1"=="" (
