@@ -16,7 +16,7 @@ BUILD_OSM2ODR=false
 GIT_PULL=true
 CURRENT_OSM2ODR_COMMIT=ee0c2b9241fef5365a6bc044ac82e6580b8ce936
 OSM2ODR_BRANCH=carla_osm2odr
-OSM2ODR_REPO=http://github.fishros.org/https://github.com/carla-simulator/sumo.git
+OSM2ODR_REPO=https://github.com/carla-simulator/sumo.git
 
 OPTS=`getopt -o h --long help,rebuild,build,clean,carsim,no-pull -n 'parse-options' -- "$@"`
 
@@ -81,7 +81,7 @@ if ${BUILD_OSM2ODR} ; then
   if ${GIT_PULL} ; then
     if [ ! -d ${OSM2ODR_SOURCE_FOLDER} ] ; then
       log "cloning OSM2ODR."
-      #git clone -b ${OSM2ODR_BRANCH} ${OSM2ODR_REPO} ${OSM2ODR_SOURCE_FOLDER}
+      git clone -b ${OSM2ODR_BRANCH} ${OSM2ODR_REPO} ${OSM2ODR_SOURCE_FOLDER}
       log "finished."
     fi
     cd ${OSM2ODR_SOURCE_FOLDER}
