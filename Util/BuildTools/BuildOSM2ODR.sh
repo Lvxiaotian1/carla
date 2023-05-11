@@ -76,6 +76,7 @@ fi
 
 if ${BUILD_OSM2ODR} ; then
   log "Building OSM2ODR."
+  log "${OSM2ODR_SOURCE_FOLDER}"
   # [ ! -d ${OSM2ODR_BUILD_FOLDER} ] && mkdir ${OSM2ODR_BUILD_FOLDER}
   if ${GIT_PULL} ; then
     if [ ! -d ${OSM2ODR_SOURCE_FOLDER} ] ; then

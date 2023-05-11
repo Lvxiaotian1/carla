@@ -1,0 +1,3 @@
+[submodule "Build/libosm2dr-source"]
+	path = Build/libosm2dr-source
+	url = https://github.com/Lvxiaotian1/carla.git
