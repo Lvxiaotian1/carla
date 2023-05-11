@@ -81,7 +81,7 @@ if ${BUILD_OSM2ODR} ; then
   if ${GIT_PULL} ; then
     if [ ! -d ${OSM2ODR_SOURCE_FOLDER} ] ; then
       log "cloning OSM2ODR."
-      git clone -b ${OSM2ODR_BRANCH} ${OSM2ODR_REPO} ${OSM2ODR_SOURCE_FOLDER}
+      #git clone -b ${OSM2ODR_BRANCH} ${OSM2ODR_REPO} ${OSM2ODR_SOURCE_FOLDER}
       log "finished."
     fi
     cd ${OSM2ODR_SOURCE_FOLDER}
